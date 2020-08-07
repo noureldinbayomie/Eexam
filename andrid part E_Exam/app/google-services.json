@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1057034907260",
+    "firebase_url": "https://eexam-3d285.firebaseio.com",
+    "project_id": "eexam-3d285",
+    "storage_bucket": "eexam-3d285.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057034907260:android:cf0dac796b00e11b28a3f9",
+        "android_client_info": {
+          "package_name": "com.example.e_exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057034907260-04et3uqj5tfivfmoqndcpolafrimduqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_exam",
+            "certificate_hash": "731d8c2c09495452114923b0e4c179502b956034"
+          }
+        },
+        {
+          "client_id": "1057034907260-qirfe5tpncknq3iqmnlu88h8b6vn707e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUnr6gwIzjMywmjDVAlr4g7IGCqkGiZCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057034907260-qirfe5tpncknq3iqmnlu88h8b6vn707e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

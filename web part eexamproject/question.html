@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<body>
+    <div class="grid">
+        <div id="quiz">
+            <h1>Quiz</h1>
+            <hr style="margin-bottom: 20px">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+			<body>
+    <div>exam closes in <span id="time"></span> minutes!</div>
+</body>
+        </div>
+    </div>
+
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDhoX3bqpoRPrH8FwqGXeMtR6cCQXLiZH0",
+    authDomain: "eexam-3d285.firebaseapp.com",
+    databaseURL: "https://eexam-3d285.firebaseio.com",
+    projectId: "eexam-3d285",
+    storageBucket: "eexam-3d285.appspot.com",
+    messagingSenderId: "1057034907260",
+    appId: "1:1057034907260:web:f9536dcbf763553128a3f9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="quiz.js"></script>
+<script src="question.js"></script>
+<script src="eex.js"></script>
+</body>
+</html>

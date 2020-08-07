@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register form</title>
+      
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+        <link rel="stylesheet" type="text/css" href="indexcss.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap2.min.css">    
+		<script src="eex.js"></script>
+
+		
+		
+</head>
+<body>
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="home.html"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link " href="index.html">Home </a>
+                    <a class="nav-item nav-link active" href="register.html">Register <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link " href="studentlogin.html">Login</a>
+                   
+                  </div>
+                </div>
+              </nav>
+
+        <div class="row">
+	
+        <div class="background-login">
+	
+        <div class="background-login-shadow">
+		
+                <div class="container">
+				
+    <div class="row form-input contact-form offset-2 form-group" style="margin-top: 90px;margin-left:-190px;">
+	<img id="image" src="avatar.png" class="avatar"/>
+        <h2>sign up</h2>
+		<h3  style=" visibility:hidden ; color:#18F911 ;margin-top:-12px" id="done"> successful Registartion</h3>
+        <form>
+            
+             
+                <input  id="stuusername" type="text" placeholder="username" required class="form-control">				
+				   <input  id="code" type="text" placeholder="student code" required class="form-control">
+				   				<input  id="phonenumber" type="text" placeholder="phonenumber" required class="form-control">
+
+                <input id="userpassword"  type="password" placeholder="Password" min="8" required class="form-control" >
+                <input type="password" placeholder="Confirm Password" min="8" required class="form-control" id="confirmpassword">
+				</div>
+				
+				   <div class="row form-input contact-form offset-2 form-group" style="margin-top: 90px;">
+				 <div class="row" style="margin-top: 20px; margin-bottom:10px"> 
+				      <input type="text" placeholder="email" min="8" required class="form-control" id="email">
+
+                       <select  id="selectType" class="form-control" onchange="populate(this.id,'facultylevels')" required style="position: relative;width: 100%; height:45px ; border-radius:28px; font-size: 15px ;  background: transparent; border-bottom: 1px solid #fff">
+					     <option>selectfaculty</option>
+
+                      <option value="fci">fci</option>
+                           <option value="engineering">engineering</option>
+                            <option value="medicine">medicine</option>
+                                        
+             </select>
+			  <div class="row" style="margin-top: 20px; margin-bottom:10px"> 
+                       <select class="form-control"  id="facultylevels" onchange="populateee(this.id,selectType,'facultydepartment')" required style="margin-left: 15px ;height:45px; width:350px;border-radius:28px; font-size: 15px ;  background: transparent">
+					              </select>
+								  </div>	
+  <div class="row" style="margin-top: 20px; margin-bottom:10px"> 
+                       <select class="form-control"  id="facultydepartment"  required style="margin-left: 15px ;height:45px; width:350px;border-radius:28px; font-size: 15px ;  background: transparent">
+					              </select>
+								  </div>								  
+
+         <input class="form-control btn btn-success" id="button" onclick="stusignup()" type="button" value="Sign Up" style="position: relative;width: 100%; height: 37px ; font-size: 15px ;font-style:bold; background: transparent border-bottom: 1px solid #fff">
+
+                       <h3 class="form-control btn btn-danger"> <a href="studentlogin.html" id="complet" style="text-decoration: none;">Sign In </a><h3>
+            </form>
+        
+        </div>
+
+    </div>
+        </div>
+            </div>
+               </div>
+               </div>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDhoX3bqpoRPrH8FwqGXeMtR6cCQXLiZH0",
+    authDomain: "eexam-3d285.firebaseapp.com",
+    databaseURL: "https://eexam-3d285.firebaseio.com",
+    projectId: "eexam-3d285",
+    storageBucket: "eexam-3d285.appspot.com",
+    messagingSenderId: "1057034907260",
+    appId: "1:1057034907260:web:f9536dcbf763553128a3f9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="eex.js"></script>
+    </body>
+</html>

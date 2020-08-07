@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/et_department_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:hint="Department Name"
+        android:padding="8dp"
+        android:background="@drawable/et_white_solid_color"/>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+>
+
+
+    <ImageButton
+        android:id="@+id/btn_remove_department"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:background="@drawable/btn_add"
+        android:layout_gravity="center"
+        />
+    </FrameLayout>
+
+</LinearLayout>

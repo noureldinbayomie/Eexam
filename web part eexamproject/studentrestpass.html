@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>  rest password </title>
+	   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+    <link rel="icon" href="logo1.png" type="image/png" sizes="20x20">
+	        <link rel="stylesheet" type="text/css" href="css/bootstrap2.min.css">    
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	  <link rel="stylesheet" href="pssindexcss.css">
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="home.html"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link " href="index.html">Home </a>
+                    <a class="nav-item nav-link active" href="register.html">Register <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="studentlogin.html">Login</a>
+                   
+                  </div>
+                </div>
+              </nav>
+
+
+            <form class="row">
+                <div class="background-login">
+                <div class="background-login-shadow">
+                    <div class="container">
+                      						<img src="reset.png" style="width:220px;height:150px; margin-top:5%;margin-left:40%; ">
+                        <div class="logdesign" style="margin-top: 90px; min-height: 100px">
+
+                        <h1 style="margin-top: -30px">Reset Password</h1>
+						
+                          <input type="email" placeholder="email" id="emaillab" class="form-controllog" required>
+                        <input  class="form-control btn btn-success" onclick="labrestpass()" type="button" value="Sumbit" style="margin-top:40px;margin-bottom:10px;border-radius: 100px;">
+								<p id="wwarn" style="color:#FFFFFF ; visibility:hidden" > email should exist in your info</p>
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+  </form>
+    </div>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDhoX3bqpoRPrH8FwqGXeMtR6cCQXLiZH0",
+    authDomain: "eexam-3d285.firebaseapp.com",
+    databaseURL: "https://eexam-3d285.firebaseio.com",
+    projectId: "eexam-3d285",
+    storageBucket: "eexam-3d285.appspot.com",
+    messagingSenderId: "1057034907260",
+    appId: "1:1057034907260:web:f9536dcbf763553128a3f9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="eex.js"></script>
+   
+  </body>
+</html>

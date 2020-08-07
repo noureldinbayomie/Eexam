@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.e_exam">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Make_Exam"></activity>
+        <activity android:name=".Add_true_Or_False_Question" />
+        <activity android:name=".Add_Choose_Question" />
+        <activity android:name=".True_Or_False_Question" />
+        <activity android:name=".Choose_Questions" />
+        <activity android:name=".Chapter_Question" />
+        <activity android:name=".New_Chapter" />
+        <activity android:name=".Subjects_Chaptres" />
+        <activity android:name=".Add_Subject" />
+        <activity android:name=".Subjects" />
+        <activity android:name=".ProfessorRequest" />
+        <activity android:name=".ProfessorHome" />
+        <activity android:name=".SignInProfessor" />
+        <activity android:name=".SignUpProfessore" />
+        <activity android:name=".Add_Levels" />
+        <activity android:name=".Levels" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".Add_Faculty" />
+        <activity android:name=".Faculty_Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

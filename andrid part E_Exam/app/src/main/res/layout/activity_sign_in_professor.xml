@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#64DD17"
+        />
+    <EditText
+        android:id="@+id/et_pro_username_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:hint="Username"
+        android:textColor="#000000"
+        android:background="@drawable/et_white_solid_color"
+        android:paddingTop="12dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="12dp"
+        android:textSize="18sp"/>
+
+
+    <EditText
+        android:id="@+id/et_pro_password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:hint="Password"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:background="@drawable/et_white_solid_color"
+        android:paddingTop="12dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="12dp"
+        android:textSize="18sp"/>
+
+
+
+    <Button
+        android:id="@+id/btn_pro_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/faculty_login_btn"
+
+        />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did you forget your password ?"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btn_professor_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textColor="#64DD17"
+        android:padding="8dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/new_faculty_btn"
+        />
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

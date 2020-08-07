@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="correct_answer">
+
+        <item> A </item>
+        <item> B </item>
+        <item> C </item>
+        <item> D </item>
+
+
+
+    </string-array>
+
+
+
+    <string-array name="question_category">
+
+
+        <item>Category A  </item>
+        <item>Category B  </item>
+        <item>Category C  </item>
+
+
+    </string-array>
+
+<string-array name="true_or_false">
+
+    <item>True</item>
+    <item>False</item>
+
+</string-array>
+
+</resources>

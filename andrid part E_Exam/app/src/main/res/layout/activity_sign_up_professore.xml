@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sign Up"
+            android:textColor="#33691E"
+            android:textSize="25sp"
+            />
+
+
+        <EditText
+            android:id="@+id/et_professor_username"
+            android:hint="Username"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_white_solid_color"
+            android:textColorHint="#1A237E"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            />
+
+
+
+
+
+        <EditText
+
+            android:id="@+id/et_professor_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Professor Name"
+            android:padding="8dp"
+            android:background="@drawable/et_white_solid_color"
+            android:textColorHint="#1A237E"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"/>
+
+
+
+        <EditText
+            android:id="@+id/et_professor_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:padding="8dp"
+            android:background="@drawable/et_white_solid_color"
+            android:textColorHint="#1A237E"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_faculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:padding="8dp"
+            android:background="@drawable/et_white_solid_color"
+            android:textColorHint="#1A237E"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"/>
+
+
+        <EditText
+            android:id="@+id/et_professor_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:padding="8dp"
+
+            android:background="@drawable/et_white_solid_color"
+            android:textColorHint="#1A237E"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"/>
+
+        <EditText
+            android:id="@+id/et_professor_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Confirm Password"
+            android:padding="8dp"
+            android:inputType="numberPassword"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/et_white_solid_color"
+            android:textColorHint="#1A237E"
+            android:textSize="18sp" />
+        <Button
+
+            android:id="@+id/btn_professor_create_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/faculty_login_btn"
+            android:padding="8dp"
+            android:text="Sign Up"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:onClick="createAccount"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

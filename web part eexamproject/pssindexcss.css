@@ -1,0 +1,159 @@
+body{
+            margin: 0;
+            padding: 0;
+        }
+		
+		
+        
+        .contact-form
+        {
+		
+            position: absolute;
+			
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+            height: 500px;
+            padding: 80px 40px;
+            box-sizing: border-box;
+		
+			border-radius: 40px;
+            background: rgba(204,239,255,.4);
+			
+			
+        }
+		
+        .avatar {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            top: calc(-80px/2);
+            left: calc(50% - 40px);
+        }
+        .contact-form h2, h1 {
+            margin: 0;
+            padding: 0 0 20px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .contact-form p
+        {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            color: #fff;
+        }
+        .contact-form input
+        {
+            width: 145%;
+            margin-bottom: 20px;
+		
+        }
+		  .contact-form input placeholder { 
+		color:#000000;
+        }
+       
+		
+        .contact-form input[type="text"],
+        .contact-form input[type="password"]
+        {
+            border: none;
+            border-bottom: 1px solid #fff;
+			color: #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            
+            font-size: 16px;
+        }
+        .contact-form input[type="submit"] {
+            height: 30px;
+            color: #fff;
+            font-size: 15px;
+            background: red;
+            cursor: pointer;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            margin-top: 15%;
+        }
+        .contact-form a
+        {
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .background-login-shadow { 
+		
+            background-size: cover;
+            background-color: rgb(0, 0, 0,0.3);
+			
+            min-height: 100%;
+            width: 100%;
+        }
+
+        .background-login {
+            background: url('hh.jpg') no-repeat center center fixed;
+            background-size: cover;
+			
+            min-height: 1000px;
+            width: 100%;
+        }
+
+        .contact-form2
+        {
+		
+            position: absolute;
+			
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+            height: 450px;
+            padding: 80px 40px;
+            box-sizing: border-box;
+		
+			border-radius: 40px;
+            background: rgba(0,0,0,.5);
+			
+
+			
+        }
+		.logdesign{
+			position: absolute;
+			
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+            height: 800px;
+            padding: 80px 40px;
+            box-sizing: border-box;
+		
+			border-radius: 40px;
+			
+		}
+		.form-controllog{
+			
+			margin:10px 0;
+			background:transparent;
+			border:0;
+			border: none;
+            border-bottom: 1px solid #fff;
+			color: #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            width:320px;
+            font-size: 16px;
+ 
+		}
+		::placeholder{
+			color:#fff;
+		}

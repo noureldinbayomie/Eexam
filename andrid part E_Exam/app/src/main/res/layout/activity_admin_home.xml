@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+
+    <Button
+        android:id="@+id/btn_go_to_levels"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Levels"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/faculty_login_btn"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+      android:id="@+id/btn_go_to_pro"
+        android:layout_marginTop="24dp"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="Professors"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/faculty_login_btn"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_go_to_subject"
+        android:layout_marginTop="24dp"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Subjects"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/faculty_login_btn"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+
+        android:layout_marginTop="24dp"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="Students"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/faculty_login_btn"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>
+
+
+
+</ScrollView>
